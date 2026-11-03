@@ -1,0 +1,13 @@
+interface:
+  display_name: 论文审稿
+  short_description: 基于原文证据审查论文硬错误、公式图表、引用对应和参考文献信息
+  default_prompt: 使用 $review-paper 通读这篇论文，重点核查逻辑与数值硬错误、公式衔接、图文一致性及引用和参考文献，逐项给出位置、证据、影响与建议。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
